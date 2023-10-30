@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.125rem;
+}
+
+.container {
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-img {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 65%;
+}
+
+.background-image {
+    width: 100%; /* Set the width of the background image */
+    height: 100%; /* Maintain aspect ratio */
+}
+
+.overlay-image {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    z-index: 1; /* Position the overlay image on top of the background */
+    /* You can adjust the width, height, or other styles as needed */
+}
+
+.frame1 {
+    display: flex;
+    height: 550px;
+    background-image: url(../images/Mask\ Group.svg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    width: 65%;
+}
+
+.herobox1 {
+    flex: 2;
+    width: 450px;
+    height: 100%;
+}
+
+.herobox1 h2 {
+    color: #E15252;
+}
+
+.mybutton1 {
+    background-color: #E15252;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+.box1 {
+    width: 30%;
+    height: 150px;
+    background-color: #F2F2F2;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.box1 h2 {
+    font-family: "TTHoves";
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    min-height: 250px;
+    width: 15%;
+}
+
+.img {
+    border-radius: 180px;
+    border-color: #E15252;
+    border-style: solid;
+    border-width: 15px;
+}
